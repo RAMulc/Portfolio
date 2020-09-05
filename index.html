@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Reset style for all browsers -->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- Add link to bootsrap and custom css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -14,10 +15,12 @@
 </head>
 
 <body>
+    <!-- Set background image for page -->
     <div style="background-image: url(./assets/images/background.jpg)">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <!-- Set bootstrap navbar -->
+        <nav class="navbar navbar-expand-md bg-light">
             <a class="navbar-brand">Robert Mulcrone</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,53 +41,49 @@
         </nav>
         <br>
 
-        <div class="container-fluid">
+        <!-- Add container for web page content. Container has two rows with single column -->
+        <div class="container bg-light" id="about">
             <div class="row">
-                <div class="col-8">
-                    <div class="container-fluid bg-light">
-                        <div class="row ">
-                            <div class="col-12">
-                                <h1>About Me</h1>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <img class="img float-left" src="http://placehold.it/200x200" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                </p>
+                <div class="col-xs-12 col-md-12">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <img class="img float-left" src="./assets/images/Mud-Man.JPG" alt="Mud-man" />
 
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
-                                    sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
-                                    accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>
+                        Robert is a railway electrification engineer with over twenty years’ experience in the design
+                        and documentation of overhead wiring systems. He has been involved at all stages of the project
+                        life-cycle from survey to production of concept and detailed designs. Robert has also worked on
+                        the client's side in his role with Network Rail in the United Kingdom, as Overhead Line Design
+                        Engineer, and during his many secondments into the Public Transport Authority in Perth.
+                    </p>
+                    <p>Qualification: Bachelor of Engineering (Hons) Aerospace Engineering.</p>
+                    <p>
+                        Picture above/left is the Mud-Man from 'The Lost Gardens of Heligan' in Cornwall, England. A
+                        very nice place. Visit if you can.
+                    </p>
+                    <!-- I have run out of inspiration...Lorem ipsum.. -->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
+                        sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
+                        accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
+                        sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
+                        accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
+                        sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
+                        accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis
+                        sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam
+                        accusamus nemo fugiat debitis voluptates ratione omnis, nobis.
+                    </p>
                 </div>
             </div>
         </div>
+
+
         <br>
     </div>
 
