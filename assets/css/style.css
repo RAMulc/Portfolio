@@ -1,13 +1,30 @@
+    body {
+        background: url("../images/background.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .list-o-links {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-left: 5%; 
+        padding: 10px; 
+        line-height: 25px;
+        list-style-type: disc;
+    }
+    
     h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: bolder;
-        color: cadetblue;
+        color: darkgreen;
     }
 
     .navbar-brand {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: cadetblue;
+        background-color: darkgreen;
         font-weight: bold;
         color: white;
         padding: 5px;
@@ -30,6 +47,35 @@
         padding: 10px;
     }
 
+    a {
+        color: cadetblue;
+    }
+
+    a:hover {
+        color: blueviolet;
+    }
+
+    .pfolioImg {
+        width: 350px;
+        padding: 10px;
+    }
+
+    .zoom {
+        transition: transform 0.5s;
+       }
+      
+    .zoom:hover{
+    transform: scale(1.05);
+    }
+
+    .portfolio-info {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-left: 5%; 
+        padding: 10px; 
+        line-height: 25px;
+    }
+
     #portfolio {
         max-width: 80%;
         padding: 10px;
@@ -47,9 +93,22 @@
         padding: 0px;
     }
 
+    input[type=submit] {
+        background-color: darkgreen;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: blueviolet;
+    }
+
     /* Set the background of the navbar-toggler */
     .navbar-toggler { 
-        background-color: cadetblue;
+        background-color: darkgreen;
     } 
 
     /* Customise the navbar-toggler-icon to match the colouring of the webpages */
